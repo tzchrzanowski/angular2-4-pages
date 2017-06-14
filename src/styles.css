@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+  background: #ffccbc
+  ;
+  text-align: center;
+  /*
+  font-family: 'Roboto Condensed', sans-serif;	
+  */
+  font-family: 'Press Start 2P', cursive;
+}
+
+#app{
+	background: white;
+}
+
+.videoBox{
+  max-width: 400px;
+  margin: 10px auto 10px auto;
+}
+
+.cardBig{
+  max-width: 450px;
+}
+.cardBig2{
+  margin-top:20px;
+  max-width: 450px;
+}
+.pageTitle{
+  font-size:25px;
+}
+
+.videosContainer{
+  margin-top:55px;
+}

@@ -1,3 +1,121 @@
-<h1>
-  {{title}}
-</h1>
+
+
+<app-nav-bar></app-nav-bar>
+
+<!--middle part-->
+<div class="row">
+<!--left side with articles-->
+  <div class="col s8">
+       <!--first row of articles-->
+	    <div class="row">
+        <!--card article-->
+        <div class="col s6">
+            <div class="cardBig2">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="../assets/img/robot2.png">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Mr Robot<i class="material-icons right">more_vert</i></span>
+                <p><a href="#">Go to article</a></p>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Mr Robot<i class="material-icons right">close</i></span>
+                <p>Follows Elliot, a young programmer working as a cyber-security engineer by day, and a vigilante hacker by night.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+				<!--end card article ^-->
+			  <!--card article 2-->
+        <div class="col s6">
+            <div class="cardBig2">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="../assets/img/silicon2.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Silicon Valley<i class="material-icons right">more_vert</i></span>
+                <p><a href="#">Go to article</a></p>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Silicon Valley<i class="material-icons right">close</i></span>
+                <p>Follows the struggle of Richard Hendricks, a silicon valley engineer trying to build his own company called Pied Piper</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!--end card article 2 ^-->
+	    </div> 
+  <!--2nd row of articles-->
+      <div class="row">
+      <!--first article 2nd row-->
+        <div class="col s6">
+            <div class="cardBig">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="../assets/img/halt2.png">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Halt and catch fire<i class="material-icons right">more_vert</i></span>
+                <p><a href="#">Go to article</a></p>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Halt and catch fire<i class="material-icons right">close</i></span>
+                <p>Set in the 1980s, this series dramatizes the personal computing boom through the eyes of a visionary, an engineer and a prodigy whose innovations directly confront the corporate behemoths of the time. Their personal and professional partnership will be challenged by greed and ego while charting the changing culture in Texas' Silicon Prairie.
+        - Written by AMC</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      <!--2nd article 2nd row-->
+        <div class="col s6">
+          <div class="cardBig">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="../assets/img/ghost2.png">
+              </div>
+              <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Ghost in the shell<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">Go to article</a></p>
+              </div>
+              <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Ghost in the shell<i class="material-icons right">close</i></span>
+              <p>In the near future, Major is the first of her kind: A human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end of 2nd row of articles	-->
+      </div>
+  </div>
+  <!--right side with videos:-->
+  <div class="col s4">
+    <div class="videosContainer">
+        <!--VIDEO 1-->
+      <div class="videoBox video-container">
+        <iframe width="853" height="480" src="http://www.youtube.com/embed/69V__a49xtw" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <!--VIDEO 2-->
+      <div class="videoBox video-container">
+        <iframe width="853" height="480" src="http://www.youtube.com/embed/pWrioRji60A" frameborder="0" allowfullscreen></iframe>
+      </div>		
+    </div>	  
+  </div>
+<!--end of row-->
+</div>		
+
+<!--floating buttons fab-->
+  <div class="fixed-action-btn horizontal">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+
+<app-footer></app-footer>
