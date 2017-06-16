@@ -1,0 +1,33 @@
+<div class="row">
+<!--left side with articles-->
+  <div class="col s8">
+  <!--first row of articles-->
+	    <div class="row">
+        <!--1st row 1st article-->
+        <app-article [title]='titleCaptionMR' [note]='noteCaptionMR' [imgLoc]='imgValueMR'></app-article>
+			  <!--1st row 2nd article-->
+         <app-article [title]='titleCaptionSV' [note]='noteCaptionSV' [imgLoc]='imgValueSV'></app-article>
+	    </div> 
+  <!--2nd row of articles-->
+      <div class="row">
+      <!--2nd row first article -->
+        <app-article [title]='titleCaptionHaCF' [note]='noteCaptionHaCF' [imgLoc]='imgValueHaCF'></app-article>
+      <!--2nd row 2nd article-->
+        <app-article [title]='titleCaptionGitS' [note]='noteCaptionGitS' [imgLoc]='imgValueGitS'></app-article>
+      </div>
+  </div>
+  <!--right side with videos:-->
+  <div class="col s4">
+    <div class="videosContainer">
+        <!--VIDEO 1-->
+       <div class="videoBox video-container">
+        <iframe width="853" height="480" src="http://www.youtube.com/embed/69V__a49xtw" frameborder="0" allowfullscreen></iframe>
+      </div>     
+      <!--VIDEO 2-->
+      <div class="videoBox video-container">
+        <iframe width="853" height="480" src="http://www.youtube.com/embed/pWrioRji60A" frameborder="0" allowfullscreen></iframe>
+      </div>		
+    </div>	  
+  </div>
+<!--end of row-->
+</div>		

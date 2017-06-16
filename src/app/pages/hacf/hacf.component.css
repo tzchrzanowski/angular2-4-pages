@@ -1,0 +1,25 @@
+.articleContainer{
+    height:700px;
+    background-image:url("https://pbs.twimg.com/media/DCeGSASWAAA3R0I.jpg");
+	background-repeat: no-repeat;
+	/*background-attachment:fixed;*/
+	background-size:cover;
+}
+
+.poster{
+    /*position:absolute;*/
+    margin-top:75px;
+    margin-right:50px;
+    /*margin-top:auto;
+    margin-bottom:auto;
+    padding-top:auto;
+    padding-bottom:auto;*/
+    max-height:550px;
+    float:right;
+}
+
+.caption{
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top:175px;
+    color:white;
+}

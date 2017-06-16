@@ -1,8 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
 body{
-  background: #ffccbc
-  ;
+  /*background color:*/
+  background: #ffccbc;
+    /*background-image:url("https://pbs.twimg.com/media/DA0EDYgXUAE0Pmi.jpg");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:cover;*/
+
   text-align: center;
   /*
   font-family: 'Roboto Condensed', sans-serif;	

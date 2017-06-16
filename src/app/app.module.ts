@@ -9,6 +9,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ArticleComponent } from './article/article.component';
 import { VideoComponent } from './video/video.component';
 import { CornerButtonComponent } from './corner-button/corner-button.component';
+import { HacfComponent } from './pages/hacf/hacf.component';
+import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { CornerButtonComponent } from './corner-button/corner-button.component';
     NavBarComponent,
     ArticleComponent,
     VideoComponent,
-    CornerButtonComponent
+    CornerButtonComponent,
+    HacfComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
