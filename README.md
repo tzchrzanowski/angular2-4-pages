@@ -6,5 +6,4 @@
 
 ##### Development server
 - Run `npm install` in console to install package.json content.
-- Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
+- Run `ng serve` for a dev server. Navigate to `http://localhost:4200/` in your browser.
